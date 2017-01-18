@@ -21,8 +21,9 @@ print("You arrive to the house a flashlight in hand as well as a battery and a h
 Choose = input("Option One: You decide to enter the house with some fear. You open the door to reveal a dark room. With that you turn the flashlight on. || Option Two: You decide to not go inside. Your sense were coming back and you did not want to risk it. ")
 
 if Choose == 'One':
-    del.inventory['flashlight']
-    print("With the flashlight now turned on, you close the door behind you. Bad idea, %s. The light was going to be your guide from here on out. You decide to walk around the dark room.")
+    del inventory[0]
+    print(Name, '||', inventory, '||', health, '||', stamina)
+    print("With the flashlight now turned on, you close the door behind you. Bad idea, %s. The light was going to be your guide from here on out. You decide to walk around the dark room." % Name)
 elif Choose == 'Two':
     quit()
 else:
