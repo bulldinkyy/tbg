@@ -15,7 +15,7 @@ else:
 
 
 print("There was a story that some dude entered this house and never returned. There were multiple versions of this story, involving the man either comitting suicide, killing the people that entered or lived in the house, or he kept bodies in the walls. Your brave ass decided to see if any of these were true.")
-print("With a flashlight, your dumbass decided to go inside. It was like an episode of Ghost Adventures. You started the second it was dark, and would leave at dawn. The only downside was the fact that you were gay and you didn't have anyone with you.")
+print("With a flashlight, youdecided to go inside. It was like an episode of Ghost Adventures. You started the second it was dark, and would leave at dawn. The only downside was the fact that you didn't have anyone with you.")
 print("You arrive to the house a flashlight in hand as well as a battery and a hairclip. What do you do?")
 
 Choose = input("Option One: You decide to enter the house with some fear. You open the door to reveal a dark room. With that you turn the flashlight on. || Option Two: You decide to not go inside. Your sense were coming back and you did not want to risk it. ")
