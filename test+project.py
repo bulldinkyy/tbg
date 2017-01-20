@@ -20,10 +20,10 @@ print(" → the paper clip")
 print(" → the flashlight and the battery")
 print(" → all of the items")
 Choose = input('> ')
-if Choose == 'the hairclip':
-    inventory.append('the hairclip')
+if Choose == 'the paper clip':
+    inventory.append('the paper clip')
     print(Name, '||', inventory, '||', health, '||', stamina)
-    print("What you thought the hairclip would do was your idea. With this in your hand, you slowly stand up from your current spot on the floor and make your way towards the door. At least, attempt to by having the wall be your guide. Time to pick lock.")
+    print("You thought the paper clip would do. With this in your hand, you slowly stand up from your current spot on the floor and make your way towards the door. At least, attempt to by having the wall be your guide. Time to pick lock.")
 elif Choose == 'the flashlight and the battery':
     inventory.append('flashlight')
     inventory.append('a battery')
