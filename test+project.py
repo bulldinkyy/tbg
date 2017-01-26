@@ -71,7 +71,5 @@ elif Door == 'the door ahead of you':
   print(Name, '||', inventory)
   print("You decide to walk forward.")
 else: 
-  input("What are you doing? Try again: ")
+  print("What are you doing? Try again: ")
   
-if input == 'the door to your left':
-  print('')
